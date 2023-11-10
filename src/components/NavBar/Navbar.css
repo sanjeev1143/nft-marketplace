@@ -1,0 +1,51 @@
+/* ---------------------navBar css---------------- */
+.navBar{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+  .nav_cont1{
+    color:white;
+    display: flex;
+    width:1200px;
+    height:54px;
+    gap: 50px;
+    
+  }
+  #nav_head1, #nav_head2, #nav_head3{
+    font: inter;
+    align-self: center;
+  }
+  #nav_head3_pro{
+    background: #15BFFD;
+    padding: 2px;
+    font: inter;
+  }
+  .nav_cont2{
+    display: flex;
+    gap: 20px;
+    margin-right: 120px;
+  }
+  #search_bar{
+  border: 1px solid #15BFFD;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  color: #15BFFD;
+  background: none;
+  }
+  #search_bar::placeholder {
+    color: #15BFFD;
+  }
+  .searchIcon{
+  width: 18.76px;
+  height: 19.22px;
+  align-self: center;
+  }
+  .upload{
+  width: 44px;
+  height: 44px;
+  }
+  
+  
