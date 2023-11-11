@@ -1,0 +1,106 @@
+.titleCard{
+    width: 50%;
+    height: 308px;
+    gap: 32px;
+    margin-left: 120px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .webTitle1, .webTitle2, .webTitleDis{
+        color: white;
+        font-family: Clash Display;
+    }
+    .webTitle1{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    }
+    .webTitle2{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    }
+    .pulseImg{
+        width: 427px;
+        height: 38px;
+        top: 204px;
+        }
+    #btnConnectWallet{
+        border: 1px solid #15BFFD;
+        border-radius: 30px;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        color: #ffffff;
+        background: #15BFFD;
+        }
+        #btnConnectWallet:hover{
+            transform: scale(1.05);
+        }
+        #nft1{
+            font-family: inter;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #11a5db;
+        }
+        .createNFT{
+            display: flex;
+            width: 80%;
+            justify-content: space-around;
+        }
+        .connectWallet{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .arrow1{
+            width: 28px;
+            height: 16px;
+            align-items: center;
+        }
+    
+        .contentTitle1{
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+        .searchData{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .btn{
+            border: 1px solid #ffffff;
+            border-radius: 30px;
+            text-align: center;
+            color: #ffffff;
+            background: none;
+            margin: 5px;
+            padding: 4px;
+        }
+        .btn1{
+            background-color:#15BFFD;
+        } 
+        .btn:hover{
+            transform: scale(1.05);
+        }
+        .eclipse{
+        position: absolute;
+        width: 356px;
+        height: 356px;
+        top: -25px;
+        left: -6px;
+
+    }

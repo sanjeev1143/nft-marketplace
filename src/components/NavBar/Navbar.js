@@ -14,7 +14,6 @@ export default function Navbar() {
             <img src="/nft-marketplace-content/searchIcon.png" alt="" className="searchIcon" />
             <input type="text" id='search_bar' placeholder='connet wallet' className='search_bar'/>
             <img src="/nft-marketplace-content/upload.png" alt="" className="upload" />
-          
         </div>
     </div>
   )
