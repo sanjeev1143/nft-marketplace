@@ -5,9 +5,9 @@ export default function Navbar() {
     <div className="navBar">
         <div className="nav_cont1">
             <img src="/nft-marketplace-content/appLogo.png" alt="logo" className="appLogo" />
-            <p id='nav_head1'>Discover</p>
-            <p id='nav_head2'>Marketplace</p>
-            <p id='nav_head3'>How it works <span id='nav_head3_pro'>pro</span></p>
+            <a href='' id='nav_head1'>Discover</a>
+            <a href='' id='nav_head2'>Marketplace</a>
+            <a href='' id='nav_head3'>How it works <span id='nav_head3_pro'>pro</span></a>
         </div>
         <div className="nav_cont2">
           

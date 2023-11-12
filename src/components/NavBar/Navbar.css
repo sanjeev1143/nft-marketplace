@@ -14,7 +14,9 @@
   }
   #nav_head1, #nav_head2, #nav_head3{
     font: inter;
+    color: white;
     align-self: center;
+    text-decoration: none;
   }
   #nav_head3_pro{
     background: #15BFFD;
