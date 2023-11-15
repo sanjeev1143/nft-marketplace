@@ -13,11 +13,14 @@ export default function FirstPage() {
     <img src="/nft-marketplace-content/star.png" alt="" id='star6' className='star' />
     <img src="/nft-marketplace-content/star.png" alt="" id='star7' className='star' />
     <img src="/nft-marketplace-content/linePattern.png" alt="" id='linePattern'/>
+    <img src="/nft-marketplace-content/icon.png" alt="" id='icon1'/>
+     
      <div className="homepage">
     
       <div className="leftSection"> 
       <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse" />
-    <div className='titleCard'>
+         
+         <div className='titleCard'>
       
         <p className="webTitle1">Super NFT</p>
         <p className="webTitle2">Marketplace</p>
@@ -52,6 +55,10 @@ export default function FirstPage() {
         </div>
 
          </div>
+      </div>
+      <div className="rightSection">
+      <img src="/nft-marketplace-content/card.png" alt="item1" className='item1 artFrame'/>
+      <img src="/nft-marketplace-content/card.png" alt="item2" className='item2 artFrame'/>
       </div>
    </div>
    </>

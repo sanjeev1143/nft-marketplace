@@ -1,0 +1,44 @@
+.auction{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auctionTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+}
+.auctionHead{
+
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.auctionMoto{
+   
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.auctionItems{
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+}
+.item{
+    width: 300px;
+    height: 400px;
+    border: 1px;
+    
+}

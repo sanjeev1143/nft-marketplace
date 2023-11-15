@@ -1,9 +1,12 @@
 .homepage{
     display: flex;
-   
+    gap: 19px;
 }
 
 /* left section */
+.leftSection{
+    width: 50%;
+}
 .titleCard{
    
     height: 50%;
@@ -114,10 +117,20 @@
     }
 
     /* right section */
-
+    .rightSection{
+        width: 50%;
+        margin-left: 50px;
+    }
     .artFrame{
-        width: 180px;
-        height: 260px;
+        width: 210px;
+        height: 280px;
         margin-top: 80px;
-        margin-left: 60px;
+        
+      
+    }
+    .item2{
+        position: relative;
+        top: 72px;
+        left: 10px;
+        transform: rotate(16deg);
     }

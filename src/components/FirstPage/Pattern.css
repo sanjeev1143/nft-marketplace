@@ -42,3 +42,12 @@
     border: 5px;
     opacity: 0.5;
 }
+#icon1{
+    position: absolute;
+    width: 113.35px;
+    height: 113.35px;
+    top: 130px;
+    right: 240px;
+    transform: rotate(30deg);
+
+}
