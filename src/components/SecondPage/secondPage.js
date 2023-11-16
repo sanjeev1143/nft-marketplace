@@ -4,9 +4,11 @@ import './secondPage.css';
 export default function secondPage() {
   return (
 <>
+
 <div className="whyChooseUs">
+
   <div className="circlePattern">
-    {/* img */}
+   
   </div>
   <div className="content">
     <h2 className='contentHead'>Why Choose Us?</h2>

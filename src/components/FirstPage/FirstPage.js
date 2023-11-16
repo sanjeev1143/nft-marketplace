@@ -5,20 +5,21 @@ import './Pattern.css';
 export default function FirstPage() {
   return (
     <>
-    <img src="/nft-marketplace-content/star.png" alt="" id='star1' className='star' />
-    <img src="/nft-marketplace-content/star.png" alt="" id='star2' className='star' />
-    <img src="/nft-marketplace-content/star.png" alt="" id='star3' className='star' />
-    <img src="/nft-marketplace-content/star.png" alt="" id='star4' className='star' />
-    <img src="/nft-marketplace-content/star.png" alt="" id='star5' className='star' />
-    <img src="/nft-marketplace-content/star.png" alt="" id='star6' className='star' />
-    <img src="/nft-marketplace-content/star.png" alt="" id='star7' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star1' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star2' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star3' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star4' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star5' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star6' className='star' />
+    <img src="/nft-marketplace-content/star.svg" alt="" id='star7' className='star' />
     <img src="/nft-marketplace-content/linePattern.png" alt="" id='linePattern'/>
     <img src="/nft-marketplace-content/icon.png" alt="" id='icon1'/>
      
      <div className="homepage">
     
       <div className="leftSection"> 
-      <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse" />
+      <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse1 eclipse" />
+      <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse2 eclipse" />
          
          <div className='titleCard'>
       
@@ -29,11 +30,11 @@ export default function FirstPage() {
 
         <div className="createNFT">
 
-         <button id='btnConnectWallet'>connet wallet</button>
+         <button id='btnConnectWallet1'>connet wallet</button>
 
          <div className='connectWallet'>
 
-            <a href='' id='nft1'>create NFT </a>
+            <a href='#home' id='nft1'>create NFT </a>
             <img src="/nft-marketplace-content/arrow.png" alt="" className='arrow1'/>
 
          </div>
