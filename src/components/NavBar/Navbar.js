@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="nav_cont2">
           
             <img src="/nft-marketplace-content/searchIcon.png" alt="" className="searchIcon" />
-            <input type="text" id='search_bar' placeholder='connet wallet' className='search_bar'/>
+            <input type="text" id='search_bar' placeholder='connect wallet' className='search_bar'/>
             <img src="/nft-marketplace-content/upload.png" alt="" className="upload" />
         </div>
     </div>

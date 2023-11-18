@@ -1,0 +1,45 @@
+.contentBox{
+    width: 350px;
+    height: 178px;
+    border: 1px solid ;
+    border-image: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+    border-image-slice: 1;
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: rgba(237, 237, 250, 0.041);
+    
+}
+.month{
+color: white;
+align-self: center;
+font-family: Clash Display;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+
+}
+.contHead{
+color: white;
+font-family: Clash Display;
+font-size: 32px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.cont{
+color: rgb(206, 201, 201);
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}

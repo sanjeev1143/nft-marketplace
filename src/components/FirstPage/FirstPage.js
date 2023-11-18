@@ -34,7 +34,7 @@ export default function FirstPage() {
 
          <div className='connectWallet'>
 
-            <a href='#home' id='nft1'>create NFT </a>
+            <a href='' id='nft1'>create NFT </a>
             <img src="/nft-marketplace-content/arrow.png" alt="" className='arrow1'/>
 
          </div>

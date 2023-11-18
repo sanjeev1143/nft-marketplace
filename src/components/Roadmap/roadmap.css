@@ -1,0 +1,106 @@
+.roadmap{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roadmapTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+}
+.roadmapHead{
+
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.roadmapMoto{
+   
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.roadmapPath{
+ 
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 150px;
+}
+.leftCont{
+    display: flex;
+    flex-direction: column;
+    gap: 89px;
+   
+}
+
+.rightCont{
+    margin-top: 89px;
+    display: flex;
+    flex-direction: column;
+    gap: 89px;
+
+}
+.mid_line{
+    margin-top: 89px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.line{
+    width: 4px;
+    height: 712px;
+
+    
+}
+.circle0{
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+position: relative;
+left: 15px;
+
+}
+
+.lineCircle{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.linecircleGrp1, .linecircleGrp2,.linecircleGrp3 {
+    display: flex;
+    flex-direction: column;
+    gap: 89px;
+}
+
+
+/* 
+.leftIndicator{   
+margin-top: 8px;
+display: flex;
+flex-direction: column;
+gap: 270px;
+position: absolute;
+}
+.rightIndicator{
+    display: flex;
+    margin-top: 122px;
+    flex-direction: column;
+    gap: 270px;
+    position: absolute;
+}
+.leftArrow, .rightArrow{
+    width: 150px;
+} */

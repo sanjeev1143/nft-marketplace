@@ -1,5 +1,5 @@
 import React from 'react'
-import liveAuction from './liveAuction.css'
+import './liveAuction.css'
 export default function LiveAuction() {
   return (
   <>

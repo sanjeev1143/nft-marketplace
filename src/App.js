@@ -3,6 +3,7 @@ import FirstPage from './components/FirstPage/FirstPage';
 import Navbar from './components/NavBar/Navbar';
 import SecondPage from './components/SecondPage/secondPage';
 import LiveAuction from './components/LiveAuction/LiveAuction';
+import Roadmap from './components/Roadmap/Roadmap';
 function App() {
   return (
     <>
@@ -10,6 +11,8 @@ function App() {
       <FirstPage/>
       <SecondPage/>
       <LiveAuction/>
+      <Roadmap/>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </>
   );
 }
