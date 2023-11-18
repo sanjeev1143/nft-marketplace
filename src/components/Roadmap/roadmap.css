@@ -36,17 +36,19 @@
     display: flex;
     flex-direction: row;
     margin-top: 60px;
-    gap: 150px;
+ 
 }
 .leftCont{
     display: flex;
     flex-direction: column;
     gap: 89px;
+    position: relative;
+    top: 10px;
    
 }
 
 .rightCont{
-    margin-top: 89px;
+    margin-top: 101px;
     display: flex;
     flex-direction: column;
     gap: 89px;
@@ -85,22 +87,55 @@ left: 15px;
     gap: 89px;
 }
 
+.roadmapPattern{
+    display: flex;
+    
+}
 
-/* 
+
 .leftIndicator{   
-margin-top: 8px;
-display: flex;
-flex-direction: column;
-gap: 270px;
-position: absolute;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 271px;
+    position: relative;
+    left: 15px;
+
 }
 .rightIndicator{
     display: flex;
-    margin-top: 122px;
+    margin-top: 210px;
     flex-direction: column;
-    gap: 270px;
-    position: absolute;
+    gap: 273px;
+    margin-right: 12px;
+   
 }
 .leftArrow, .rightArrow{
-    width: 150px;
-} */
+    width: 130px;
+} 
+
+.borderPatternLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    position: absolute;
+    left: 450px;
+  
+}
+.borderPatternRight{
+ 
+    height: 230px;
+}
+.borderPatternRight1{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: absolute;
+    right: 450px;
+    
+  
+}
+.borderPatternLeft1{
+    
+    height: 230px;
+}
