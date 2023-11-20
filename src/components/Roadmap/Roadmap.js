@@ -5,6 +5,8 @@ export default function Roadmap() {
   return (
 <>
 <div className="roadmap">
+
+
     <div className="roadmapTitle">
         <p className="roadmapHead">
             Live roadmap
@@ -17,27 +19,25 @@ export default function Roadmap() {
 
 
     <div className="roadmapPath">
-        <div className="leftCont">
-            
+        <div className="leftPart">
+            <div className="leftCont">
             <RoadmapContBox month="Janauary" head="Brief"/>
             <RoadmapContBox month="March" head="Discover"/>
             <RoadmapContBox month="May" head="Testing"/>
-        
-        </div>
-            
-      
-          
-    <div className="roadmapPattern">
 
-        <div className="borderPatternLeft">
+            </div>
+        
+            <div className="borderPatternLeft">
             <img src="/nft-marketplace-content/borderPatternRight.SVG" alt="" className='borderPatternRight' />
             <img src="/nft-marketplace-content/borderPatternRight.SVG" alt="" className='borderPatternRight' />
             <img src="/nft-marketplace-content/borderPatternRight.SVG" alt="" className='borderPatternRight'/>
 
         </div>
-
-
-
+        </div>
+            
+      
+          
+    <div className="roadmapPattern">
         <div className="leftIndicator">
               <img src="/nft-marketplace-content/indicatorLeft.svg" alt="" className="leftArrow" />
               <img src="/nft-marketplace-content/indicatorLeft.svg" alt="" className="leftArrow" />
@@ -45,14 +45,7 @@ export default function Roadmap() {
         </div>
 
           <div className="mid_line">
-            
-        <div className="borderPatternRight1">
-            <img src="/nft-marketplace-content/borderPatternLeft.SVG" alt="" className='borderPatternLeft1' />
-            <img src="/nft-marketplace-content/borderPatternLeft.SVG" alt="" className='borderPatternLeft1' />
-            <img src="/nft-marketplace-content/borderPatternLeft.SVG" alt="" className='borderPatternLeft1' />
-            
-
-        </div>
+        
             <div className="lineCircle">
 
             <div className="linecircleGrp1">
@@ -85,15 +78,26 @@ export default function Roadmap() {
   
             
         </div>
-        <div className="rightCont">
-            
-            <RoadmapContBox month="February" head="Research"/>
-            <RoadmapContBox month="April" head="Desgin"/>
-            <RoadmapContBox month="June" head="Launch & Feedback"/>
-        
-        </div>
 
+        <div className="rightPart">
+                
+            <div className="borderPatternRight1">
+                <img src="/nft-marketplace-content/borderPatternLeft.SVG" alt="" className='borderPatternLeft1' />
+                <img src="/nft-marketplace-content/borderPatternLeft.SVG" alt="" className='borderPatternLeft1' />
+                <img src="/nft-marketplace-content/borderPatternLeft.SVG" alt="" className='borderPatternLeft1' />
+            </div>
+      
+            <div className="rightCont">
+
+                <RoadmapContBox month="February" head="Research"/>
+                <RoadmapContBox month="April" head="Desgin"/>
+                <RoadmapContBox month="June" head="Launch & Feedback"/>
+            </div>
+
+        </div>
+                <img src="/nft-marketplace-content/eclipse0.svg" alt="" className="eclipse3 eclipse" />x
     </div>
+
 
 </div>
   

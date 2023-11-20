@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .roadmapTitle{
@@ -44,15 +45,17 @@
     gap: 89px;
     position: relative;
     top: 10px;
-   
+   left: 150px;
 }
 
 .rightCont{
-    margin-top: 101px;
+
     display: flex;
     flex-direction: column;
     gap: 89px;
-
+    position: relative;
+    right: 150px;
+    top: 13px;
 }
 .mid_line{
     margin-top: 89px;
@@ -118,8 +121,6 @@ left: 15px;
     display: flex;
     flex-direction: column;
     gap: 55px;
-    position: absolute;
-    left: 450px;
   
 }
 .borderPatternRight{
@@ -130,12 +131,26 @@ left: 15px;
     display: flex;
     flex-direction: column;
     gap: 60px;
-    position: absolute;
-    right: 450px;
     
-  
-}
+  }
 .borderPatternLeft1{
-    
-    height: 230px;
+   height: 230px;
+}
+.leftPart{
+    display: flex;
+    position: relative;
+    left: 13px;
+}
+.rightPart{
+    display: flex;
+    margin-top: 101px;
+    position: relative; 
+    right: 13px;
+}
+.eclipse3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0px;
+    top: 2900px;
 }
