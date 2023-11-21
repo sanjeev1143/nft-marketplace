@@ -4,6 +4,7 @@ import Navbar from './components/NavBar/Navbar';
 import SecondPage from './components/SecondPage/secondPage';
 import LiveAuction from './components/LiveAuction/LiveAuction';
 import Roadmap from './components/Roadmap/Roadmap';
+import TopCollection from './components/TopCollection/topCollection';
 function App() {
   return (
     <>
@@ -12,7 +13,8 @@ function App() {
       <SecondPage/>
       <LiveAuction/>
       <Roadmap/>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <TopCollection/>
+      <br/><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </>
   );
 }

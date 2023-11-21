@@ -21,7 +21,7 @@ export default function FirstPage() {
       <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse1 eclipse" />
       <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse2 eclipse" />
          
-         <div className='titleCard'>
+        <div className='titleCard'>
       
         <p className="webTitle1">Super NFT</p>
         <p className="webTitle2">Marketplace</p>

@@ -19,7 +19,7 @@ export default function LiveAuction() {
         <img src="/nft-marketplace-content/card.png" alt="item3" className='item5 item'/>
     </div>
   </div>
-  <br /><br /><br /><br /><br /><br />
+
   </>
   )
 }
