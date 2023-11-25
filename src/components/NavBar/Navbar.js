@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="navBar">
         <div className="nav_cont1">
-            <img src="/nft-marketplace-content/appLogo.png" alt="logo" className="appLogo" />
+            <img src="/nft-marketplace-content/appLogo.svg" alt="logo" className="appLogo" />
             <a href='' id='nav_head1'>Discover</a>
             <a href='' id='nav_head2'>Marketplace</a>
             <a href='' id='nav_head3'>How it works <span id='nav_head3_pro'>pro</span></a>

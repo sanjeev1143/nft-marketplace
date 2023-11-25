@@ -33,15 +33,17 @@
 }
 .collectionItems{
     margin-top: 60px;
-    display: flex;
+    display: grid;
     gap: 24px;
+    grid-template-columns: repeat(3 ,1fr) ;
+ 
 }
 
-.item0{
+/* .item0{
     width: 290px;
     height: 350px;
     border: 1px;
-}
+} */
 
 #btnExploreMore{
     border: 1px solid #15BFFD;

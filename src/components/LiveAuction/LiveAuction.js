@@ -14,9 +14,9 @@ export default function LiveAuction() {
         </p>
     </div>
     <div className="auctionItems">
-        <img src="/nft-marketplace-content/card.png" alt="item1" className='item3 item'/>
-        <img src="/nft-marketplace-content/card.png" alt="item2" className='item4 item'/>
-        <img src="/nft-marketplace-content/card.png" alt="item3" className='item5 item'/>
+        <img src="/nft-marketplace-content/card.svg" alt="item1" className='item3 item'/>
+        <img src="/nft-marketplace-content/card.svg" alt="item2" className='item4 item'/>
+        <img src="/nft-marketplace-content/card.svg" alt="item3" className='item5 item'/>
     </div>
   </div>
 
