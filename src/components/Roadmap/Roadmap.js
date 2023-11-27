@@ -21,9 +21,9 @@ export default function Roadmap() {
     <div className="roadmapPath">
         <div className="leftPart">
             <div className="leftCont">
-            <RoadmapContBox month="Janauary" head="Brief"/>
-            <RoadmapContBox month="March" head="Discover"/>
-            <RoadmapContBox month="May" head="Testing"/>
+            <RoadmapContBox month="Janauary" head="Brief" className="leftBox"/>
+            <RoadmapContBox month="March" head="Discover" className="leftBox" />
+            <RoadmapContBox month="May" head="Testing" className="leftBox"/>
 
             </div>
         
@@ -89,9 +89,9 @@ export default function Roadmap() {
       
             <div className="rightCont">
 
-                <RoadmapContBox month="February" head="Research"/>
-                <RoadmapContBox month="April" head="Desgin"/>
-                <RoadmapContBox month="June" head="Launch & Feedback"/>
+                <RoadmapContBox month="February" head="Research" className="rightBox"/>
+                <RoadmapContBox month="April" head="Desgin" className="rightBox"/>
+                <RoadmapContBox month="June" head="Launch & Feedback" className="rightBox"/>
             </div>
 
         </div>
@@ -101,6 +101,8 @@ export default function Roadmap() {
 
 </div>
   
+  
 </>
   )
 }
+

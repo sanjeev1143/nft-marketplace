@@ -1,10 +1,10 @@
 import React from 'react'
 import './FirstPage.css';
 import './Pattern.css';
-
+import './media.css'
 export default function FirstPage() {
   return (
-    <>
+    <><div className="homepage">
     <img src="/nft-marketplace-content/star.svg" alt="" id='star1' className='star' />
     <img src="/nft-marketplace-content/star.svg" alt="" id='star2' className='star' />
     <img src="/nft-marketplace-content/star.svg" alt="" id='star3' className='star' />
@@ -14,33 +14,36 @@ export default function FirstPage() {
     <img src="/nft-marketplace-content/star.svg" alt="" id='star7' className='star' />
     <img src="/nft-marketplace-content/linePattern.png" alt="" id='linePattern'/>
     <img src="/nft-marketplace-content/icon.png" alt="" id='icon1'/>
-     
-     <div className="homepage">
+    <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse1 eclipse" />
+   <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse2 eclipse" /> 
+  
     
-      <div className="leftSection"> 
-      <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse1 eclipse" />
-      <img src="/nft-marketplace-content/eclipse.png" alt="" className="eclipse2 eclipse" />
+   <div className="leftSection"> 
+      
          
-        <div className='titleCard'>
+      <div className='titleCard'>
       
         <p className="webTitle1">Super NFT</p>
+
         <p className="webTitle2">Marketplace</p>
+      </div>  
         <img src="/nft-marketplace-content/pulse.png" alt=""  className='pulseImg'/>
-         <p className='webTitleDis'>The largest and unique Super rare NFT marketplace <br />For crypto-collectibles</p>
+        
+        <p className='webTitleDis'>The largest and unique Super rare NFT marketplace <br />For crypto-collectibles</p>
 
         <div className="createNFT">
+         
+            <button id='btnConnectWallet1'>connet wallet</button>
 
-         <button id='btnConnectWallet1'>connet wallet</button>
+             <div className='connectWallet'>
 
-         <div className='connectWallet'>
+                <a href='' id='nft1'>create NFT </a>
+                <img src="/nft-marketplace-content/arrow.png" alt="" className='arrow1'/>
 
-            <a href='' id='nft1'>create NFT </a>
-            <img src="/nft-marketplace-content/arrow.png" alt="" className='arrow1'/>
-
-         </div>
-      </div>
+             </div> 
+        </div>       
       <div className="searchData">
-      <p className="contentTitle1">Last 7 days popular search</p>
+         <p className="contentTitle1">Last 7 days popular search</p>
          <div className="btnSearchList1">
             <button className="btn btn1">All</button>
             <button className="btn">Music</button>
@@ -52,11 +55,11 @@ export default function FirstPage() {
             <button className="btn">Castoon</button>
             <button className="btn">Virtual world</button>
             <button className="btn">Classic</button>
-          </div>
-        </div>
-
          </div>
       </div>
+
+   </div>
+ 
       <div className="rightSection">
       <img src="/nft-marketplace-content/card.png" alt="item1" className='item1 artFrame'/>
       <img src="/nft-marketplace-content/card.png" alt="item2" className='item2 artFrame'/>

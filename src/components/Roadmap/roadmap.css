@@ -153,3 +153,30 @@ left: 15px;
     right: 0px;
     top: 2900px;
 }
+/* .leftCont {
+    animation: moveItemRight 2s linear forwards;
+  }
+  
+  .rightCont {
+    animation: moveItemLeft 2s linear forwards;
+    scroll-margin-top: 100vh;
+  }
+  
+  @keyframes moveItemRight {
+    0% {
+      transform: translateX(-300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes moveItemLeft {
+    0% {
+      transform: translateX(300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+  

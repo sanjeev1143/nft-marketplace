@@ -3,35 +3,39 @@
     width: 10px;
     height: 10px;
     transition: transform 1s ease-in-out;
-    animation: increaseSize 2s infinite alternate;
+    animation: increaseSize 2s infinite alternate; 
+  
 }
 #star1{
     top: 60%;
     left: 40px;
+    animation: blink 1s infinite linear;
 }
+
 #star2{
     left: 250px;
-    top: 160px;
+    top: 75px;
 
 }
 #star3{
-    top: 140px;
+    top: 75px;
     left: 600px;
-    /* animation: moveStar 15s infinite linear; */
+    animation: moveStar 5s infinite linear; 
 }
 #star4{
-    top: 145px;
-    left: 750px;
+    top: 60px;
+    left: 900px;
 }
 #star5{
-    top: 180px;
+    top: 85px;
     right: 40px;
     width: 20px;
     height: 20px;
+    animation: blink 3s infinite linear;
 }
 #star6{
-    bottom: 150px;
-    right: 600px;
+    bottom: 280px;
+    right: 650px;
 }
 #star7{
     bottom: 40px;
@@ -41,19 +45,23 @@
     position: absolute;
     width: 514.09px;
     height: 400px;
-    top: 200px;
+    top: 85px;
     right: 0px;
     border: 5px;
-    opacity: 0.5;
+    opacity: 0.6;
+
 }
 #icon1{
     position: absolute;
     width: 113.35px;
     height: 113.35px;
-    top: 130px;
-    right: 240px;
+    top: 15px;
+    right: 220px;
     transform: rotate(30deg);
-
+    animation: rotate 12s linear infinite;
+}
+#icon1:hover{
+    animation: circularMotion 10s linear infinite;
 }
 .eclipse{
     width: 356px;
@@ -62,12 +70,13 @@
 }
 .eclipse1{
     position: absolute;
-    top: -25px;
+    top: -90px;
     left: -6px;
+
 }
 .eclipse2{
     position: absolute;
-    top: -25px;
+    top: -90px;
     right:0px;
     opacity: 0.8;
     transform: rotate(90deg);
@@ -88,21 +97,53 @@
     }
   }
   
-
-/* @keyframes moveStar {
+  @keyframes blink {
     0% {
-        transform: translate(0, 0);
+      opacity: 0.4;
     }
-    25% {
-        transform: translate(300px, 200px);
+   
+    50% {
+     opacity:1;
+    }
+ 
+    100% {
+        opacity: 0.5;
+      }
+  }
+  
+
+  @keyframes moveStar {
+    0% {
+      transform: translate(0, 0);
+    }
+    20% {
+      transform: translate(420px, -20px);
     }
     50% {
-        transform: translate(400px,-10px);
-    }
-    75% {
-        transform: translate(-100px,100px);
+      transform: translate(350px,-140px);
     }
     100% {
-        transform: translate(0, 0);
+      transform: translate(280px,520px);
     }
-} */
+ 
+  }
+  
+
+
+@keyframes circularMotion {
+    0% {
+      transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

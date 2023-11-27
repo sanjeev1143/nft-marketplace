@@ -1,0 +1,14 @@
+/* 
+@media(max-width:640px){
+    *{
+        overflow-x: hidden;
+    }
+    #linePattern,#icon1,.pulseImg{
+        display: none;
+    }
+    .rightSection,.eclipse,.star{
+        display: none;
+    }
+
+
+    } */
